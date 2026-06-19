@@ -19,6 +19,16 @@ To understand normal network behavior on a personal device by capturing and anal
 - Multiple background connections to Google/Microsoft services observed
 - HTTPS traffic is encrypted (content not visible)
 
+## DNS Traffic
+- DNS_traffic.png
+
+Standard query
+Standard query response
+Browsed Google / YouTube / Amazon
+System is making background service calls
+DNS resolves both A and AAAA records (IPv4 + IPv6)
+No suspicious or unknown malicious domains visible
+
 ## Conclusion
 The system exhibits normal baseline behavior with expected DNS resolution, TCP connections, and encrypted HTTPS traffic.
 This baseline can be used for future anomaly detection.
