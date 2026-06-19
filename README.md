@@ -20,7 +20,6 @@ To understand normal network behavior on a personal device by capturing and anal
 - HTTPS traffic is encrypted (content not visible)
 
 ## DNS Traffic
-DNS_traffic.png
 ![DNS Traffic](DNS_traffic.png)
 
 - Standard query
@@ -31,7 +30,7 @@ DNS_traffic.png
 - No suspicious or unknown malicious domains visible
 
 ## TCP Connections
-tcp_connections.png
+![TCP Connections](images/tcp_connections.png)
 
 - TCP handshake (SYN/SYN-ACK/ACK)
 - DNS Standard query -- Device is asking: “What is the IP of this YouTube/Google video server?”
@@ -39,7 +38,7 @@ tcp_connections.png
 - TCP PDU reassembled --This data was split into multiple packets, wireshark stitched it back together
 
 ## IP
-ip.png
+![IP](images/ip.png)
   
 ## Conclusion
 The system exhibits normal baseline behavior with expected DNS resolution, TCP connections, and encrypted HTTPS traffic.
