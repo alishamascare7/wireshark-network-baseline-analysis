@@ -22,13 +22,23 @@ To understand normal network behavior on a personal device by capturing and anal
 ## DNS Traffic
 - DNS_traffic.png
 
-Standard query
-Standard query response
-Browsed Google / YouTube / Amazon
-System is making background service calls
-DNS resolves both A and AAAA records (IPv4 + IPv6)
-No suspicious or unknown malicious domains visible
+- Standard query
+- Standard query response
+- Browsed Google / YouTube / Amazon
+- System is making background service calls
+- DNS resolves both A and AAAA records (IPv4 + IPv6)
+- No suspicious or unknown malicious domains visible
 
+## TCP Connections
+tcp_connections.png
+
+- TCP handshake (SYN/SYN-ACK/ACK)
+- DNS Standard query -- Device is asking: “What is the IP of this YouTube/Google video server?”
+- PSH, ACK --content becomes unreadable (HTTPS encryption)
+- TCP PDU reassembled --This data was split into multiple packets, wireshark stitched it back together
+
+
+  
 ## Conclusion
 The system exhibits normal baseline behavior with expected DNS resolution, TCP connections, and encrypted HTTPS traffic.
 This baseline can be used for future anomaly detection.
