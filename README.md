@@ -21,6 +21,7 @@ To understand normal network behavior on a personal device by capturing and anal
 
 ## DNS Traffic
 DNS_traffic.png
+![DNS Traffic](DNS_traffic.png)
 
 - Standard query
 - Standard query response
