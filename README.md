@@ -38,6 +38,7 @@ To understand normal network behavior on a personal device by capturing and anal
 - TCP PDU reassembled --This data was split into multiple packets, wireshark stitched it back together
 
 ## IP
+![IP Traffic](ip.png)
   
 ## Conclusion
 The system exhibits normal baseline behavior with expected DNS resolution, TCP connections, and encrypted HTTPS traffic.
