@@ -20,7 +20,7 @@ To understand normal network behavior on a personal device by capturing and anal
 - HTTPS traffic is encrypted (content not visible)
 
 ## DNS Traffic
-- DNS_traffic.png
+DNS_traffic.png
 
 - Standard query
 - Standard query response
@@ -37,7 +37,8 @@ tcp_connections.png
 - PSH, ACK --content becomes unreadable (HTTPS encryption)
 - TCP PDU reassembled --This data was split into multiple packets, wireshark stitched it back together
 
-
+## IP
+ip.png
   
 ## Conclusion
 The system exhibits normal baseline behavior with expected DNS resolution, TCP connections, and encrypted HTTPS traffic.
