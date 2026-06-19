@@ -30,7 +30,7 @@ To understand normal network behavior on a personal device by capturing and anal
 - No suspicious or unknown malicious domains visible
 
 ## TCP Connections
-![TCP Connections](images/tcp_connections.png)
+![TCP Connections](tcp_connections.png)
 
 - TCP handshake (SYN/SYN-ACK/ACK)
 - DNS Standard query -- Device is asking: “What is the IP of this YouTube/Google video server?”
